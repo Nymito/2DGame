@@ -13,18 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers sources\src">
+      <UniqueIdentifier>{071e97c3-e14b-4eb4-aba1-24d46e4aff62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\src\headers">
+      <UniqueIdentifier>{c47f8da9-ea14-4e5c-ae36-47977fce47d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="game.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources\src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers sources\src\headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
